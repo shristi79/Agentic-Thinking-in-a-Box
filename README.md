@@ -39,8 +39,6 @@ Create a `.env` file in the project root with your Hugging Face API token:
 ```
 HUGGINGFACE_API_TOKEN=hf_your_token_here
 ```
-- **Never commit your `.env` file to version control.**
-- Add `.env` to your `.gitignore`.
 
 ### 4. Run the Backend (Flask)
 ```sh
@@ -64,11 +62,6 @@ python -m streamlit run app.py
 4. Click **Analyze Issue**.
 5. View the AI-generated structured analysis.
 
----
-
-## Security Notes
-- **Do not commit your `.env` file or any secrets to GitHub.**
-- If you accidentally pushed a secret, revoke it immediately and follow [GitHub's guide on removing sensitive data](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository).
 
 ---
 
