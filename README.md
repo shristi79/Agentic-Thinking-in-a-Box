@@ -39,6 +39,7 @@ Create a `.env` file in the project root with your Hugging Face API token:
 ```
 HUGGINGFACE_API_TOKEN=hf_your_token_here
 ```
+Deepseek is recommended
 
 ### 4. Run the Backend (Flask)
 ```sh
